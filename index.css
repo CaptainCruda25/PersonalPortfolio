@@ -1,23 +1,67 @@
 header {
     width: 100%;
-    background: black;
+    background:black;
     position:fixed;
     top:0;
     left:0;
-    padding: 5px;
+    padding: 2px;
+    display: flex;
+    justify-content: space-around;
+
 }
 nav {
-    
+    width: 100%;
     text-align: right;
+    font-size: 20px;
+    
+}
+h1 {
+    text-align: left;
+    color: aquamarine;
+    display: inline;  
+
+
+    
+    
 }
 ul {
     list-style: none;
-    
 }
 ul li {
     display: inline;
     height: 8em;
     padding: 15px;
+}
 ul li a {
     text-decoration: none;
+    
+}
+section {
+    width:100%;
+    padding:30px;
+    height:70%;
+    display: grid;
+    place-items: center;
+    background:gray;
+    float: center;
+    
+}
+.intro {
+    text-align: center;
+    font-size: 25px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    width:50%;
+    height: 2%;
+    padding:35px;
+}
+.img {
+    position: relative;
+    
+}
+img {
+    border-radius: 100px;
+    height: 150px;
+    width: 150px;
 }

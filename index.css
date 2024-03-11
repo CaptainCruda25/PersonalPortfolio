@@ -43,10 +43,11 @@ ul {
 ul li {
     display: inline;
     height: 8em;
-    padding: 30px;
+    padding: 1.5em;
 }
 ul li a {
     text-decoration: none;
+    font-size: 25px;
     
 }
 section {
